@@ -5,6 +5,9 @@ class Plane {
         this._maxFlightDistance = planeParams.maxFlightDistance;
         this._maxLoadCapacity = planeParams.maxLoadCapacity;
         this._planeType = planeParams.planeType;
+        this._militaryType = planeParams.militaryType;
+        this._classificationLevel = planeParams.classificationLevel;
+        this._passengersCapacity = planeParams.passengersCapacity;
     }
 
     get model() {

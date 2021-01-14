@@ -18,12 +18,11 @@ class Airport {
     }
 
     getMilitaryPlaneByType(type) {
-        const militaryPlane = this.getPlanesByCategory('Military');
-        return militaryPlane.filter(plane => plane.militaryType === type);
+        return this.getPlanesByCategory('Military').filter(plane => plane.militaryType === type);
     }
 
-    sortPlanesByCharacteristics(criteria) {
-        return this.planes.sort((a, b)  => (a[criteria] > b[criteria] ? 1 : -1));
+    sortPlanesByCriteria(criterion) {
+        return this.planes.sort((a, b)  => (a[criterion] > b[criterion] ? 1 : -1));
     }
 
 }

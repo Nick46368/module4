@@ -1,9 +1,8 @@
 const Plane = require('../Planes/Plane');
 
 class PassengerPlane extends Plane {
-    constructor(planeParams, passengersCapacity) {
+    constructor(planeParams) {
         super(planeParams);
-        this._passengersCapacity = passengersCapacity;
     }
 
     getPassengersCapacity() {

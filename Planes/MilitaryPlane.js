@@ -1,9 +1,8 @@
 const Plane = require('../Planes/Plane');
 
 class MilitaryPlane extends Plane {
-    constructor(planeParams, militaryType) {
+    constructor(planeParams) {
         super(planeParams);
-        this._militaryType = militaryType;
     }
 
     get militaryType() {
