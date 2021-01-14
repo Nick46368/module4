@@ -1,14 +1,14 @@
 {
   "name": "clean-code-js",
-  "version": "0.0.1",
+  "version": "0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1",
   "description": "",
   "main": "",
   "scripts": {
     "test": "mocha",
-    "start": "node index.js"
+    "start": "node Airport/index.js"
   },
   "author": {
-    "name": "Sniazhana Matskevich"
+    "name": "Baal Zebuth"
   },
   "license": "",
   "engines": {
